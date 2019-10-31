@@ -105,7 +105,7 @@ func splitPath(input string) []string {
 
 // See ECMA-119 7.5
 func mangleFileName(input string) string {
-	input = strings.ToUpper(input)
+//	input = strings.ToUpper(input)
 	split := strings.Split(input, ".")
 
 	version := "1"
