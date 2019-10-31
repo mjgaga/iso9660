@@ -140,7 +140,7 @@ func mangleDirectoryName(input string) string {
 }
 
 func mangleDString(input string, maxCharacters int) string {
-	input = strings.ToUpper(input)
+// 	input = strings.ToUpper(input)
 
 	var mangledString string
 	for i := 0; i < len(input) && i < maxCharacters; i++ {
